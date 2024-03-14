@@ -78,9 +78,9 @@
                         <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
                         <option value="Chennai Super Kings">Chennai Super Kings</option>
                         <option value="Rajasthan Royals">Rajasthan Royals</option>
-                        <option value="Kings XI Punjab">Kings XI Punjab</option>
+                        <option value="Kings XI Punjab">Punjab Kings</option>
                         <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
-                        <option value="Delhi Daredevils">Delhi Daredevils</option>
+                        <option value="Delhi Daredevils">Delhi Capitals</option>
                         <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
                     </select><br>
                     <!-- Bowling Team Dropdown -->
@@ -90,16 +90,31 @@
                         <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
                         <option value="Chennai Super Kings">Chennai Super Kings</option>
                         <option value="Rajasthan Royals">Rajasthan Royals</option>
-                        <option value="Kings XI Punjab">Kings XI Punjab</option>
+                        <option value="Kings XI Punjab">Punjab Kings</option>
                         <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
-                        <option value="Delhi Daredevils">Delhi Daredevils</option>
+                        <option value="Delhi Daredevils">Delhi Capitals</option>
                         <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
                     </select><br>
-                    <input class="form-input" type="text" name="overs" placeholder="Overs (>= 5.0) eg. 7.2"><br>
-                    <input class="form-input" type="text" name="runs" placeholder="Runs eg. 64"><br>
-                    <input class="form-input" type="text" name="wickets" placeholder="Wickets eg. 4"><br>
-                    <input class="form-input" type="text" name="runs_in_prev_5" placeholder="Runs scored in previous 5 Overs eg. 42"><br>
-                    <input class="form-input" type="text" name="wickets_in_prev_5" placeholder="Wickets taken in previous 5 Overs eg. 3"><br>
+                    <!--Venue and field/pitch-->
+                    <select class="form-input align-center" name="pitch">
+                        <option value="none">--- Select pitch type ---</option>
+                        <option value="greenpitch">Green Pitch</option>
+                        <option value="deadpitch">Dead Pitch</option>
+                        <option value="dustypitch">Dusty Pitch</option>
+                        <option value="wetpitch">Wet Pitch</option>
+                        <option value="drypitch">Dry Pitch</option>
+                        <option value="flattrackpitch">Flat Track Pitch</option>
+                    </select><br>
+                    <input class="form-input" type="text" name="overs" placeholder="Overs (>= 5.0) eg. 7.2">
+                    <p class="error overs"></p><br>
+                    <input class="form-input" type="text" name="runs" placeholder="Runs eg. 64">
+                    <p class="error runs"></p><br>
+                    <input class="form-input" type="text" name="wickets" placeholder="Wickets eg. 4">
+                    <p class="error wickets"></p><br>
+                    <input class="form-input" type="text" name="runs_in_prev_5" placeholder="Runs scored in previous 5 Overs eg. 42">
+                    <p class="error runs_in_prev_5"></p><br>
+                    <input class="form-input" type="text" name="wickets_in_prev_5" placeholder="Wickets taken in previous 5 Overs eg. 3">
+                    <p class="error wickets_in_prev_5"></p><br>
 
 			<input type="submit" class="myButton" value="Predict Score">
         	</form>
@@ -150,13 +165,12 @@
             </div>
         </div>
 
+
+
         <!-- Footer 
        <div class='footer'>
-           <div class="contact">
-               <a target="_blank" href="https://github.com/anujvyas/IPL-First-Innings-Score-Prediction-Deployment"><i class="fab fa-github fa-lg contact-icon"></i></a>
-               <a target="_blank" href="https://www.linkedin.com/in/anujkvyas"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
-           </div>
-           <p class='footer-description'>Made with ❤️ by Anuj Vyas.</p>
+           
+           <p class='footer-description'>Made with ❤️ by Aabha J.</p>
        </div>-->
 
     </body>
